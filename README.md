@@ -84,16 +84,6 @@ Open [http://localhost:3000](http://localhost:3000) and upload a document to sta
 | `QDRANT_API_KEY` | Your Qdrant Cloud API key |
 
 All secrets go in `.env.local` (which is git-ignored).
-
----
-
-## 🌐 Deploy to Vercel
-
-1. Push this repo to GitHub (public).
-2. Import into [Vercel](https://vercel.com/).
-3. Add the three environment variables (`OPENAI_API_KEY`, `QDRANT_URL`, `QDRANT_API_KEY`) in the Vercel dashboard under **Settings → Environment Variables**.
-4. Deploy!
-
 ---
 
 ## 📁 Project Structure
